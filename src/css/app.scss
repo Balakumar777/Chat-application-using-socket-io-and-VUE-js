@@ -1,0 +1,19 @@
+.body--light {
+  .text {
+      color:$fontDark;
+  }
+}
+
+.body--dark {
+  background-color: $dark;
+  .text {
+      color:$fontWhite;
+  }
+}
+
+.chatContainer {
+  overflow: auto;
+}
+.radiogroup > div {
+  margin-left: 0;
+}

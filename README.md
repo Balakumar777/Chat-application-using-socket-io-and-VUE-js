@@ -1,14 +1,26 @@
-# Chat-application-using-socket-io-and-VUE-js-with-mongo-DB
-Created a chat application using quasar framework and socket.io using Vue js and Node js with mongoDB
+# vuechat (vuechat)
 
-Install MongoDB on local and create a database called test OR you can modify in server.js file.
+Chat appilcation from Vue
 
-The collections are automatically created in runtime If it is not exists.
+## Install the dependencies
+```bash
+npm install
+```
 
-Install Quasar framework cli to run this application here https://quasar.dev/start/quasar-cli
+### Start the app in development mode (hot-code reloading, error reporting, etc.)
+```bash
+quasar dev
+```
 
-To start a client go to application folder and npm i && quasar dev 
+### Lint the files
+```bash
+npm run lint
+```
 
-To start a server go to application folder and npm i && node server
+### Build the app for production
+```bash
+quasar build
+```
 
-The client runs over 8080 and the server runs over 8000
+### Customize the configuration
+See [Configuring quasar.conf.js](https://quasar.dev/quasar-cli/quasar-conf-js).
