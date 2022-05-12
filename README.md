@@ -10,3 +10,5 @@ Install Quasar framework cli to run this application here https://quasar.dev/sta
 To start a client go to application folder and npm i && quasar dev 
 
 To start a server go to application folder and npm i && node server
+
+The client runs over 8080 and the server runs over 8000
